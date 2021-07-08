@@ -1,0 +1,323 @@
+
+/*.............font integration ....................*/
+@font-face{
+	font-family:PlayfairDisplay-Regular;
+	src: url(../fonts/PlayfairDisplay-Regular.otf);
+
+}
+@font-face{
+
+	font-family: PlayfairDisplay-Bold;
+	src: url(../fonts/PlayfairDisplay-Bold.otf);
+
+}
+@font-face{
+	font-family:Ubuntu-R ;
+	src: url(../fonts/Ubuntu-R.ttf);
+}
+@font-face{
+	src: url(../fonts/Ubuntu-B.ttf);
+}
+
+
+/*.............body ....................*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family:PlayfairDisplay-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color:#626262;
+}
+
+/*.............header start ....................*/
+
+.container{
+
+margin: 0 auto;
+width: 90%;
+overflow: hidden;
+padding: 25px 0;
+
+}
+
+/*.............header logo ....................*/
+.logo{
+
+width: 12%;
+
+float: left;
+
+padding-top: 10px;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+
+/*.............header menu ....................*/
+.menu{
+    /* margin: 0 0; */
+    width: 60%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+	margin: 0 35px;
+	color: #626262;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu ul li:last-child a{
+    margin-right: 0px;
+}
+.menu ul li a:hover{
+    color: black;
+}
+/*.............header end ....................*/
+/*......banner start....*/
+.banner{
+
+}
+.b_content{}
+.b_content img{ 
+   
+   width: 100%;
+
+ }
+
+/*......banner end....*/
+/*......gateway start....*/
+
+.gateway{
+    padding: 90px 0;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+}
+.content{}
+.c_light{
+    margin: 0;
+    font-family: Ubuntu-R;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_title{
+	margin: 0;
+	font-size: 30px;
+	font-weight: 600;
+}
+.c_text{
+    margin: 0;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+.mtb{ 
+    
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+
+ }
+.mb{
+	margin-bottom: 45px;
+}
+
+/*......gateway end....*/
+/*......blog start....*/
+
+.blog{
+
+}
+.blog_content{
+ overflow: hidden;
+ 
+}
+.s_1 img{
+	width: 100%;
+}
+.s_1{
+
+width: 47%;
+
+float: left;
+
+/* border: 1px solid red; */
+}
+.s_1:nth-child(even)
+{
+	margin-left: 6%;
+
+	/* margin-right: 0px; */
+}
+
+.mb_l{
+	margin-bottom: 30px;
+
+}
+
+.m_t_b{
+
+	margin-top:30px;
+	margin-bottom: 35px;
+
+}
+.m_b_p{
+	margin-bottom: 100px;
+}
+
+
+
+
+
+/*......blog end....*/
+
+/*......news start....*/
+
+.news{
+	background-color:#f0f0f0 ;
+	padding: 70px 0;
+
+}
+.n_content{
+	text-align: center;
+}
+.n_h1{
+	margin-bottom: 70px;
+	color: #0f0f0f;
+
+}
+.s_form{
+
+margin: 0 auto;
+
+/* border: 5px solid red; */
+
+width: 400px;
+
+/* margin: 0 auto; */
+
+position: relative;
+
+border-bottom: 1px solid black;
+}
+.s_form input{
+		font-family: 'PlayfairDisplay-Regular';
+		font-size: 16px;
+		border: none;
+		width: 320px;
+		height: 45px;
+		background: transparent;
+		/* border-bottom: 1px solid black; */
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	     margin-top: 15px;
+
+        position:absolute;
+
+        background: transparent;
+
+       border: none;
+
+       cursor: pointer;
+
+
+
+}
+
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+
+
+/*......news end....*/
+
+
+/*......Blog2 start....*/
+
+.content3{
+
+	margin-top: 100px;
+}
+.button{
+
+	padding-bottom: 100px;
+    text-align: center;
+}
+.button button{
+
+	padding: 16px;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+
+}
+
+
+/*......Blog2 end....*/
+/*......Footer start....*/
+
+footer{
+
+background: #f0f0f0;
+padding: 25px 0;
+}
+.f_content{
+    overflow: hidden;
+}
+.left{
+    width: 40%;
+    float: left;
+    margin-left: -50px;
+}
+.left ul{
+    float: left;
+}
+.left ul li{
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+}
+.left ul li:last-child{
+    margin-left: 0;
+}
+
+.right{
+
+width: 40%;
+
+float: right;
+
+margin-right: -20px;
+}
+.right ul{
+    float: right;
+}
+.right ul li{
+    float: left;
+    margin: 0 20px;
+    list-style: none;
+}
+.right ul li a{}
+.right ul li:last-child a{
+    margin-right: 0;
+}
+
+/*......footer end....*/

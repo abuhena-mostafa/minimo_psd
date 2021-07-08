@@ -1,0 +1,13 @@
+color:
+
+ Ash:     #626262
+light:    #b4ad9e
+news:     #333333
+
+playfair-regular-14pt
+
+gateway-section:
+photodiary: ubuntu light-14pt
+
+the perfect: playfair strong -30pt
+para:playfair reg 14pt
